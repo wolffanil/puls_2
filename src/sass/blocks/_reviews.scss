@@ -1,0 +1,28 @@
+.reviews {
+    padding-bottom: 48px;
+    &__title {
+        font-weight: 700;
+        font-size: 18px;
+        color: #0D0D0D;
+    }
+    span {
+        display: block;
+        font-weight: 500;
+        font-size: 14px;
+        color: #646464;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 60px;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 25px;
+        color: #0D0D0D;
+    }
+    &__descr {
+        margin-right: 40px;
+        margin-left: 60px;
+    }
+}

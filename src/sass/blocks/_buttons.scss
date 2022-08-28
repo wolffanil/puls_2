@@ -9,10 +9,26 @@
     border-radius: 5px;
     color: #FFFFFF;
     background-color: $color-red;
+    transition: 0.5s all;
+        &:hover {
+            box-shadow: 0px 0px 27px $color-red;
+
+        }
     &_main {
         margin-top: 67px;
         width: 300px;
         height: 50px;
         font-size: 16px;
+        
+    }
+    &_submit {
+        width: 100%;
+        font-size: 16px;
+        height: 58px;
+    }
+    &_mini {
+        font-size: 14px;
+        width: 135px;
+        height: 44px;
     }
 }

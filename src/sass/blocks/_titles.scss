@@ -3,9 +3,21 @@
     font-size: 30px;
     text-align: center;
     color: #0D0D0D;
+    text-transform: uppercase;
     &_mini {
         margin-top: 35px;
         margin-bottom: 20px;
         font-size: 18px;
+    }
+    &_left {
+        color: #FFFFFF;
+        font-size: 36px;
+        text-align: left;
+    }
+    &_three {
+        font-weight: 400;
+    }
+    &_reviews {
+        font-size: 25px;
     }
 }
