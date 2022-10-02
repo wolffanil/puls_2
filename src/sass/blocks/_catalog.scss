@@ -133,26 +133,28 @@
             margin-bottom: 0;//
             padding-left: 19;//
             // padding-left: 0;//
-            list-style-type: none;//
             &_active {
                 margin-left: 0;
                 transform: translateX(-100%);
             }
-            li {
-                position: relative;
-                font-weight: 300;
-                font-size: 14px;
-                line-height: 21px;
-                margin-bottom: 10px;
-                color: #555555;
-                &::before {
-                    content: '';
-                    position: absolute;
-                    width: 5px;
-                    height: 5px;
-                    background-color: $color-red;
-                    left: -14px;
-                    top: 7px;
+            ul {
+                list-style-type: none;
+                li {
+                    position: relative;
+                    font-weight: 300;
+                    font-size: 14px;
+                    line-height: 21px;
+                    margin-bottom: 10px;
+                    color: #555555;
+                    &::before {
+                        content: '';
+                        position: absolute;
+                        width: 5px;
+                        height: 5px;
+                        background-color: $color-red;
+                        left: -14px;
+                        top: 7px;
+                    }
                 }
             }
         }

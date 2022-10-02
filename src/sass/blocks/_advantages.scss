@@ -16,6 +16,16 @@
         line-height: 18px;
         text-align: center;
         color: #0D0D0D;
+        &_animated {
+            animation: heartbaet 1.5s ease infinite;
+            // animation-name: heartbaet;
+            // animation-duration: 1.5s;
+            // animation-timing-function: ease;
+            // animation-iteration-count: infinite;
+            &:hover {
+                animation-play-state: paused;
+            }
+        }
         img {
             display: block;
             margin: 0 auto;
